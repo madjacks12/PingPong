@@ -21,8 +21,7 @@ h6 {
 }
 
 p {
-  display: block;
-  line-height: 6px;
+  display: flex;
 }
 
 label {

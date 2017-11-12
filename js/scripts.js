@@ -22,7 +22,6 @@ var pingPong = function(number) {
       }   else {
         item.appendChild(nodeI);
         element.appendChild(item);
-
       }
   }
 };
