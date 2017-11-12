@@ -25,6 +25,10 @@ p {
   line-height: 6px;
 }
 
+label {
+  margin-top: 25px;
+}
+
 .jumbotron {
 background-image: url("https://i.pinimg.com/736x/b0/15/ea/b015eaa91c3f36eca5f1475fc1cec29e--warren-buffett-bill-gates.jpg");
 background-repeat: no-repeat;
