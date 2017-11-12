@@ -6,11 +6,56 @@ h1 {
   text-shadow: 3px 3px #a00909;
 }
 
+h3 {
+  display: block;
+  line-height: 50px;
+}
+
+
+h4 {
+  color: #e6ea6e;
+}
+
+h6 {
+  color: #fcfbea;
+}
+
+p {
+  display: block;
+  line-height: 6px;
+}
+
 .jumbotron {
 background-image: url("https://i.pinimg.com/736x/b0/15/ea/b015eaa91c3f36eca5f1475fc1cec29e--warren-buffett-bill-gates.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 height: 300px;
 background-position: bottom;
+}
 
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 800px;
+  align-items: flex-start;
+  background-color: #dce0d9;
+}
+
+.aboutBox {
+  flex-grow: 1;
+  background-color: #8bc481;
+  margin-right: 20px;
+  margin-left: -15px;
+  padding: 30px;
+  height: 800px;
+}
+
+.formBox {
+  flex-grow: 4;
+  border: 3px, red;
+  margin: 20px;
+  padding: 30px;
+}
+.emptyDiv {
+  flex-grow: 80;
 }

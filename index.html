@@ -14,19 +14,29 @@
       <h1 class ="display-1">Ping Pong</h1>
     </div>
     <div class ="container">
-
+      <div class="aboutBox">
+        <h3> About Ping Pong</h3>
+        <h4> Created By:</h4>
+        <h6> Matt Jackson</h6>
+        <h4> Github URL:</h4>
+        <h6><a href="https://github.com/madjacks12">madjacks12</a></h6>
+      </div>
       <form id="ping-pong">
-        <div class="form-group">
-          <label for="number">Enter your number here:</label>
+        <div class="formBox" style="flex-grow: 10">
+          <h2>Let's play!</h2>
+          <h3>Rules:</h3>
+          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+          <br>
+          <p class="indent"> 1. Numbers divisible by 3 become "ping"</p>
+          <p class="indent"> 2. Numbers divisible by 5 become "pong"</p>
+          <p class="indent"> 3. Numbers divisible by 15 become "pingpong"</p>
+          <label for="number"><strong>Enter your number here:</strong></label>
           <input id="number" type="text">
-          <button type="submit" class="btn_createList">Find out!</button>
+          <button type="submit" class="btn_createList">Ping Pong!</button>
+          <ul class="ul_result"></ul>
         </div>
       </form>
-
-      <div id="result">
-        <ul class="ul_result">
-        </ul>
-      </div>
+      <div class="emptyDiv"></div>
     </div>
   </body>
   </head>
