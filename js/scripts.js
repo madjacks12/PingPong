@@ -1,3 +1,4 @@
+//Business logic
 var pingPong = function(number) {
   if (number % 15 === 0) {
     return "pingPong";
@@ -9,7 +10,7 @@ var pingPong = function(number) {
     return number;
   }
 };
-$(document).ready(function() {
+//$(document).ready(function() {
   $('.btn_createList').click(function(){
     event.preventDefault();
     //debugger;
