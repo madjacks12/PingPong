@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Lobster', cursive;
+  color: #ffeac6;
+  text-shadow: 3px 3px #a00909;
+}
+
+.jumbotron {
+background-image: url("https://i.pinimg.com/736x/b0/15/ea/b015eaa91c3f36eca5f1475fc1cec29e--warren-buffett-bill-gates.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+background-position: bottom;
+
+}
