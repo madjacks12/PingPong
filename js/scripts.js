@@ -10,7 +10,8 @@ var pingPong = function(number) {
     return number;
   }
 };
-//$(document).ready(function() {
+//UI logic
+$(document).ready(function() {
   $('.btn_createList').click(function(){
     event.preventDefault();
     //debugger;
